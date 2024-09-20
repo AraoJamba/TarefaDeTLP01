@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelas em HTML - Introducao</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid #648228;
+            width: 50%;
+        }
+        tbody {
+            font-size: 90%;
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+        tfoot {
+            font-size: 90%;
+            font-style: italic;
+        }
+        thead {
+            color: darkblue;
+        }
+        td {
+            text-align: center;
+            border: 1px solid #648228;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <caption>Agenda de enderecos</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Cidade</th>
+                <th colspan="2">Endereco</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+                <td colspan="5">Arao Chivinda Jamba Nº 6</td>
+            </tr>
+        </tfoot>
+
+        <tbody>
+            <tr>
+                <td>Arao</td>
+                <td>Jamba</td>
+                <td>Luanda</td>
+                <td>Rua Beto Carneiro, 999</td>
+                <td>Rua Chrome OS, 369</td>
+            </tr>
+            <tr>
+                <td>Shiley</td>
+                <td>dos Santos</td>
+                <td>Huambo</td>
+                <td>Rua das Mangueirinhas, 009</td>
+                <td>Rua 11 Novembro, 129</td>
+            </tr>
+            <tr>
+                <td>Dyadler</td>
+                <td>Almeida</td>
+                <td>Prenda</td>
+                <td>Rua Tia Cicilia, 798</td>
+                <td>Rua Mama Gorda, 169</td>
+            </tr>
+            <tr>
+                <td>Nirio </td>
+                <td>Edmilson</td>
+                <td>Maianga</td>
+                <td>Rua Manuel Conego Neves, 128</td>
+                <td>Rua Tio Show, 169</td>
+            </tr>
+            <tr>
+                <td>Adalberto </td>
+                <td>Jamba</td>
+                <td>Viana</td>
+                <td>Rua de Paris, 191</td>
+                <td>Rua Viana Park, 109</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
